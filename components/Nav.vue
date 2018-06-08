@@ -13,15 +13,15 @@
 
   <!-- Right side -->
   <div class="level-right">
-    <p class="level-item"><a>Work</a></p>
-    <p class="level-item"><a>About</a></p>
+    <p class="level-item"><nuxt-link to="/">Home</nuxt-link></p>
+    <p class="level-item"><nuxt-link to="/about">About</nuxt-link></p>
   </div>
 </nav>
 
 </template>
 
 <style>
-  nav {
-    margin: 24px 0;
-  }
+nav {
+  margin: 24px 0;
+}
 </style>
