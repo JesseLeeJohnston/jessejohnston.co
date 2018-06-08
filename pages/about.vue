@@ -1,5 +1,4 @@
 <template>
-  <section>
     <div class="container">
     <div class="columns">
       <div class="column">
@@ -29,8 +28,6 @@
       </div>     
     </div>
     </div>
-    <Footer></Footer>
-  </section>
 </template>
 
 

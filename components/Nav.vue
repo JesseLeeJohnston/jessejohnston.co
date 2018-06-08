@@ -1,5 +1,6 @@
 <template>
 <!-- Main container -->
+<div class="container">
 <nav class="level is-fixed navbar">
   <!-- Left side -->
   <div class="level-left">
@@ -17,6 +18,7 @@
     <p class="level-item"><nuxt-link to="/about">About</nuxt-link></p>
   </div>
 </nav>
+</div>
 </template>
 
 <style>

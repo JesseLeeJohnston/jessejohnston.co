@@ -1,9 +1,9 @@
 <template>
-<div>
-    <div class="columns">
+<div class="mt-5">
+    <div class="columns row-center-vertical">
         <div class="column">
-            <h1 class="title">{{project.title}}</h1>
-            <h2 class="subtitle">{{ project.subtitle }}</h2>
+            <h2 class="title">{{project.title}}</h2>
+            <p>{{ project.subtitle }}</p>
             <a v-bind:href="project.url" class="button is-primary">View Project</a>
         </div>
         <div class="column">
@@ -21,5 +21,12 @@ export default {
   }
 };
 </script>
-<style>
+<style type="scss" scoped>
+@media (min-width: 769px) {
+  .row-center-vertical {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 </style>

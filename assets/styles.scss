@@ -1,6 +1,26 @@
 @import "~bulma/sass/utilities/_all.sass";
 @import "~bulma/bulma";
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
+
+$text: #222;
+
+@import "partials/helpers";
+@import "partials/type";
 
 body {
     background: #fcfcfc;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 18px;
+    color: $text;
 }
+.navbar {
+    background: #fcfcfc;
+}
+.section {
+    padding: 1rem 1.5rem 3rem;
+}
+.navbar > .container .navbar-brand, .container > .navbar .navbar-brand {
+    margin-left: 0rem;
+}
+
+
