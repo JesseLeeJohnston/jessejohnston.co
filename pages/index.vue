@@ -12,9 +12,7 @@
     </div>
     </div>
     <div class="container">
-      <PortfolioItem></PortfolioItem>
-      <PortfolioItem></PortfolioItem>
-      <PortfolioItem></PortfolioItem>
+      <PortfolioItem v-for="project in projects" v-bind:project="project" v-bind:key="project.id"></PortfolioItem>
     </div>
     <div class="container">
     <Footer></Footer>
@@ -29,6 +27,18 @@ import Nav from "~/components/Nav.vue";
 import Footer from "~/components/Footer.vue";
 
 export default {
+  data: function() {
+    return {
+      projects: [
+        {
+          title: "Buddi",
+          subtitle: "A system to help budtenders.",
+          url: "/portfolio/buddi",
+          image: "http://placehold.it/600x300"
+        }
+      ]
+    };
+  },
   components: {
     AppLogo,
     PortfolioItem,
