@@ -1,6 +1,5 @@
 <template>
   <section>
-    <Nav></Nav>
     <div class="container">
     <div class="columns">
       <div class="column">
@@ -34,19 +33,7 @@
   </section>
 </template>
 
-<script>
-import AppLogo from "~/components/AppLogo.vue";
-import Nav from "~/components/Nav.vue";
-import Footer from "~/components/Footer.vue";
 
-export default {
-  components: {
-    AppLogo,
-    Nav,
-    Footer
-  }
-};
-</script>
 
 <style>
 </style>

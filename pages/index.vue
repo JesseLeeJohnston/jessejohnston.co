@@ -1,6 +1,5 @@
 <template>
   <section>
-    <Nav></Nav>
     <div class="container">
     <div class="columns">
       <div class="column">
@@ -15,16 +14,12 @@
       <PortfolioItem v-for="project in projects" v-bind:project="project" v-bind:key="project.id"></PortfolioItem>
     </div>
     <div class="container">
-    <Footer></Footer>
     </div>
   </section>
 </template>
 
 <script>
-import AppLogo from "~/components/AppLogo.vue";
 import PortfolioItem from "~/components/PortfolioItem.vue";
-import Nav from "~/components/Nav.vue";
-import Footer from "~/components/Footer.vue";
 
 export default {
   data: function() {
@@ -40,10 +35,7 @@ export default {
     };
   },
   components: {
-    AppLogo,
-    PortfolioItem,
-    Nav,
-    Footer
+    PortfolioItem
   }
 };
 </script>
