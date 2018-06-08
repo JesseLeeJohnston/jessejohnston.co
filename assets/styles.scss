@@ -22,5 +22,11 @@ body {
 .navbar > .container .navbar-brand, .container > .navbar .navbar-brand {
     margin-left: 0rem;
 }
-
+.button {
+    text-transform: uppercase;
+}
+.button.is-primary {
+    background-color: #222;
+    color: #fff;
+}
 

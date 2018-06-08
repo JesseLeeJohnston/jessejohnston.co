@@ -29,4 +29,7 @@ export default {
     justify-content: center;
   }
 }
+.title:not(:last-child) {
+  margin-bottom: 0rem;
+}
 </style>
