@@ -28,5 +28,10 @@ body {
 .button.is-primary {
     background-color: #222;
     color: #fff;
+    border-radius: 0px;
+    padding: 1.5rem 2rem;
 }
-
+.portfolio-image {
+    margin: 2rem 0;
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .1);
+}

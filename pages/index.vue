@@ -27,25 +27,25 @@ export default {
           title: "Buddi",
           subtitle: "A system to help budtenders.",
           url: "/portfolio/buddi",
-          image: "http://placehold.it/600x300"
+          image: require("~/assets/images/buddi/buddi-thumb.png")
         },
         {
           title: "Cully Movie Bot",
           subtitle: "A chatbot channel to help movie theatres sell tickets.",
           url: "/portfolio/cully-chatbot",
-          image: "http://placehold.it/600x300"
+          image: require("~/assets/images/cully/cully-thumb.png")
         },
         {
           title: "ResponseTek Dashboard",
           subtitle: "A reporting platform for voice of customer programs.",
           url: "/portfolio/responsetek-dashboard",
-          image: "http://placehold.it/600x300"
+          image: require("~/assets/images/rt-dashboard/rt-dashboard-thumb.png")
         },
         {
           title: "ResponseTek Surveys",
           subtitle: "A survey platform for voice of customer programs.",
           url: "/portfolio/responsetek-surveys",
-          image: "http://placehold.it/600x300"
+          image: require("~/assets/images/rt-surveys/rt-survey-thumb.png")
         }
       ]
     };

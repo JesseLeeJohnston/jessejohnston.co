@@ -8,16 +8,20 @@
     </div>
     <div class="has-text-right">
       <p><small>Copyright 2018 - Jessejohnston.co.</small></p>
-      <p><small>client work is property of the specified client.</small></p>
+      <p><small>All client work is property of the specified client.</small></p>
     </div>
 </div>
 </template>
 
-<style>
+<style type="scss" scoped>
 .thick-border {
   background-color: #000;
   height: 10px;
   width: 100%;
   margin-bottom: 1rem;
+}
+.has-text-right > p {
+  margin-bottom: 0;
+  line-height: 1rem;
 }
 </style>
